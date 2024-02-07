@@ -11,11 +11,12 @@ import Profile from "./components/profile_props";
 import Gallery from "./qcomps/gallery_props";
 // import PackingList from "./qcomps/props_item";
 import List from "./qcomps/list_keys_id";
+import RecipeList from "./qcomps/recipes";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <List />
+      <RecipeList />
     </div>
   );
 }
