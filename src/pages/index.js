@@ -1,10 +1,10 @@
 import styles from "@/styles/Home.module.css";
-import FeedbackForm from "./qcomps/thankYouCrash";
+import MenuBar from "./qcomps/menuBar";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <FeedbackForm />
+      <MenuBar />
     </div>
   );
 }
