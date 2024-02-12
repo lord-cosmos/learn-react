@@ -6,6 +6,8 @@ export default function Gallery() {
   const [showMore, setShowMore] = useState(false);
 
   function handleNextClick() {
+    // the bug is here is the index keeps increasing and after some
+    // next's, it may go out of bounds.
     setIndex((index + 1) % sculptureList.length);
   }
 
