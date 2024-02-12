@@ -1,10 +1,10 @@
 import styles from "@/styles/Home.module.css";
-import Gallery from "./qcomps/state";
+import Form from "./qcomps/stuckForm";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <Gallery />
+      <Form />
     </div>
   );
 }
