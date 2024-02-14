@@ -21,7 +21,7 @@ export default function List() {
       <ul>
         {artists.map((artist) => (
           <li key={artist.id}>
-            {artist.name}{" "}
+            {artist.name}
             <button
               onClick={() => {
                 handleDeleteArtist(artist.id);
