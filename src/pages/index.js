@@ -1,10 +1,10 @@
 import styles from "@/styles/Home.module.css";
-import MenuBar from "./qcomps/menuBar";
+import RequestTracker from "./qcomps/shoppingCart";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <MenuBar />
+      <RequestTracker />
     </div>
   );
 }
