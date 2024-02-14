@@ -1,11 +1,10 @@
 import styles from "@/styles/Home.module.css";
-
-import Scoreboard from "./qcomps/updObjectsForm";
+import List from "./qcomps/artistsRemoveArr";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <Scoreboard />
+      <List />
     </div>
   );
 }
